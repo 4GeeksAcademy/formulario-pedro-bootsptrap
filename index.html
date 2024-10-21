@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="card  container">
+        <div class="card-header fs-3">
+            Payment form example
+        </div>
+        <div class="card-body">
+            <div class="alert alert-danger" role="alert">
+                Some fields ares missing.
+            </div>
+
+            <form>
+
+
+
+                <div class="container ">
+
+                    <!--  fila 1-->
+                    <div class="row">
+                        <div class="col-6 justif ">
+                            <p>Card #</p>
+                            <input type="number" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="XXXXXXXXX">
+                        </div>
+                        <div class="col-3">
+                            <p>CVC #</p>
+                            <input type="number" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="0000">
+                        </div>
+                        <div class="col-3">
+                            <p>Amount</p>
+                            <div class="d-flex"><i class="fa-solid fa-dollar-sign"></i> <input type="number"
+                                    class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                    placeholder="Amount"></div>
+                        </div>
+                    </div>
+
+                    <!--  fila 2-->
+                    <div class="row pt-4">
+                        <div class="col">
+                            <p>First Name</p>
+                            <input type="text" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+
+                        <div class="col">
+                            <p>Last Name</p>
+                            <input type="text" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                    </div>
+
+                    <!--  fila 3-->
+                    <div class="row pt-4">
+
+                        <div class="col-6 ">
+                            <p>City</p>
+                            <input type="text" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="col-3 ">
+                            <p>State</p>
+                            <select id="opciones" name="opciones">
+                                <option value="opcion1">Ohio</option>
+                                <option value="opcion2">Texas</option>
+                                <option value="opcion3">Washington 3</option>
+                                <option value="opcion4">Utah 4</option>
+                              </select>
+                        </div>
+                        <div class="col-3">
+                            <p>Postal Code</p>
+                            <input type="number" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                    </div>
+
+                    <!--  fila 4-->
+                    <div class="row pt-4">
+                        <div class="col-3">
+                            <p>We accept</p>
+                            <div class="bg-secondary rounded p-2">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1"><i
+                                            class="fa-brands fa-cc-visa text-white"></i></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2"><i
+                                            class="fa-brands fa-cc-mastercard text-white"></i></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio3" value="option3">
+                                    <label class="form-check-label" for="inlineRadio3"><i
+                                            class="fa-brands fa-cc-paypal text-white"></i></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2"><i
+                                            class="fa-brands fa-cc-mastercard text-white"></i></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                        </div>
+                        <div class="col-6">
+                            <p>Message</p>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                    style="height: 100px"></textarea>
+                            </div>
+                            <p class="fs-6">Add any notes here.</p>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+        </div>
+
+
+
+        </form>
+        <div class="card-footer text-body-secondary d-flex justify-content-end">
+            <button type="submit " class="btn btn-secondary me-2">Cancel</button>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
